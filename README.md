@@ -15,9 +15,7 @@ Preferably, you can download sqlmap by cloning the [Git](https://github.com/sqlm
 
 sqlmap works out of the box with [Python](http://www.python.org/download/) version **2.6.x** and **2.7.x** on any platform but you might also need:
 
-    sudo apt-get install python-pip
-    sudo pip install dnspython
-    sudo pip install netaddr
+
 
 
 Usage
