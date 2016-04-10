@@ -4,13 +4,6 @@
 
 sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. It comes with a powerful detection engine, many niche features for the ultimate penetration tester and a broad range of switches lasting from database fingerprinting, over data fetching from the database, to accessing the underlying file system and executing commands on the operating system via out-of-band connections.
 
-Screenshots
-----
-
-![Screenshot](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
-
-You can visit the [collection of screenshots](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) demonstrating some of features on the wiki.
-
 Installation
 ----
 
@@ -23,8 +16,8 @@ Preferably, you can download sqlmap by cloning the [Git](https://github.com/sqlm
 sqlmap works out of the box with [Python](http://www.python.org/download/) version **2.6.x** and **2.7.x** on any platform but you might also need
 
     sudo apt-get install python-pip
-    sudo pip install 
-    git clone https://github.com/wereallfeds/sqlmap
+    sudo pip install dnspython
+    sudo pip install netaddr
 
 
 Usage
